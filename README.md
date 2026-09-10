@@ -31,11 +31,17 @@ python3 latveriux.py
 - Create network maps, with specifying types, IPs, Hostnames, OS, Open Ports, Status (from unscanned to owned), add tags for each target - you can also link targets between each other
 ![showcase](docs/add-target.gif)
 
+
+
 - When you add a new host, a new note for it will automatically appear in the "Notes" section - you can also create/delete notes on your own, notes support Markdown syntax 
 ![notes](docs/notes.gif)
 
+
+
 - Often happens that you are given numerous targets - this tool lets you bulk add numerous targets at once, specifying (for all - not for single) their type (AI/Mobile/DC/PC/Other) and status
 ![bulk](docs/bulk-add.gif)
+
+
 
 - Built in terminal, so that you don't have to even leave the app, to, e.g., call `nxc`, `curl` or `nmap`! **BEWARE**: msf (Metasploit) might result in lag in terminal - if this happens, press CTRL + C
 ![terminal](docs/terminal.gif)
@@ -45,7 +51,10 @@ python3 latveriux.py
 - Right-click a host on the map to copy the IP, duplicate, delete, unlink, add or show credentials, open that host's notes, and set tags, color, or status.
 ![rmb](docs/rmb.png)
 
-- Status goes from `unscanned` to `scanned`, `enumerated`, `foothold`, then `owned`. Types: PC, Mobile, Website, Domain Controller, AI, Other.
+
+
+- Status goes from `unscanned` to `scanned`, `enumerated`, `foothold`, then `owned`.
+- Types: PC, Mobile, Website, Domain Controller, AI, Other.
 ![status](docs/status.png)
 ![type](docs/type.png)
 
